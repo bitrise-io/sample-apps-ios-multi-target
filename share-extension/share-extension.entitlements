@@ -13,13 +13,7 @@
 	<key>com.apple.developer.homekit</key>
 	<true/>
 	<key>com.apple.developer.icloud-container-identifiers</key>
-	<array>
-		<string>iCloud.$(CFBundleIdentifier)</string>
-	</array>
-	<key>com.apple.developer.icloud-services</key>
-	<array>
-		<string>CloudDocuments</string>
-	</array>
+	<array/>
 	<key>com.apple.developer.in-app-payments</key>
 	<array/>
 	<key>com.apple.developer.networking.networkextension</key>
@@ -37,10 +31,8 @@
 	<array>
 		<string>$(TeamIdentifierPrefix)*</string>
 	</array>
-	<key>com.apple.developer.ubiquity-container-identifiers</key>
-	<array>
-		<string>iCloud.$(CFBundleIdentifier)</string>
-	</array>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.external-accessory.wireless-configuration</key>
 	<true/>
 	<key>com.apple.security.application-groups</key>
