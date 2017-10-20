@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134DB8371F98B88800ABB09A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8361F98B88700ABB09A /* HealthKit.framework */; };
+		134DB83D1F98B8AE00ABB09A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB83C1F98B8AE00ABB09A /* GameKit.framework */; };
+		134DB83F1F98B8B200ABB09A /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB83E1F98B8B200ABB09A /* PassKit.framework */; };
+		134DB8411F98B8B900ABB09A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8401F98B8B900ABB09A /* MapKit.framework */; };
+		134DB8431F98B8CD00ABB09A /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8421F98B8CD00ABB09A /* HomeKit.framework */; };
+		134DB8471F98BFC100ABB09A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8461F98BFC100ABB09A /* GameKit.framework */; };
+		134DB8491F98BFE100ABB09A /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8481F98BFE100ABB09A /* HomeKit.framework */; };
+		134DB84D1F98C03D00ABB09A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB84C1F98C03D00ABB09A /* StoreKit.framework */; };
+		134DB84F1F98C09900ABB09A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB84E1F98C09900ABB09A /* AudioToolbox.framework */; };
+		134DB8511F98C0EA00ABB09A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8501F98C0EA00ABB09A /* MapKit.framework */; };
+		134DB8571F98C33F00ABB09A /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8561F98C33F00ABB09A /* NetworkExtension.framework */; };
+		134DB8591F98C36100ABB09A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8581F98C36100ABB09A /* ExternalAccessory.framework */; };
+		134DB85B1F98C38E00ABB09A /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB85A1F98C38E00ABB09A /* PassKit.framework */; };
+		134DB85E1F98C48900ABB09A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8361F98B88700ABB09A /* HealthKit.framework */; };
+		134DB8601F98C52600ABB09A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB85F1F98C52600ABB09A /* HealthKit.framework */; };
+		134DB8621F98C55B00ABB09A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134DB8611F98C55B00ABB09A /* CloudKit.framework */; };
 		13E76E131F4AC90A0028096E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E121F4AC90A0028096E /* AppDelegate.m */; };
 		13E76E161F4AC90A0028096E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E151F4AC90A0028096E /* ViewController.m */; };
 		13E76E191F4AC90A0028096E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E171F4AC90A0028096E /* Main.storyboard */; };
@@ -103,6 +119,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		13372C371F97B117006284F9 /* code-sign-test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "code-sign-test.entitlements"; sourceTree = "<group>"; };
+		134DB82A1F98AAED00ABB09A /* watchkit-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "watchkit-app.entitlements"; sourceTree = "<group>"; };
+		134DB82F1F98B7E400ABB09A /* share-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "share-extension.entitlements"; sourceTree = "<group>"; };
+		134DB8361F98B88700ABB09A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		134DB8391F98B8A000ABB09A /* watchkit-app Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "watchkit-app Extension.entitlements"; sourceTree = "<group>"; };
+		134DB83C1F98B8AE00ABB09A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		134DB83E1F98B8B200ABB09A /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/PassKit.framework; sourceTree = DEVELOPER_DIR; };
+		134DB8401F98B8B900ABB09A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		134DB8421F98B8CD00ABB09A /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		134DB8461F98BFC100ABB09A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		134DB8481F98BFE100ABB09A /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		134DB84C1F98C03D00ABB09A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		134DB84E1F98C09900ABB09A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		134DB8501F98C0EA00ABB09A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		134DB8561F98C33F00ABB09A /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		134DB8581F98C36100ABB09A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		134DB85A1F98C38E00ABB09A /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		134DB85F1F98C52600ABB09A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		134DB8611F98C55B00ABB09A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		13E76E0E1F4AC90A0028096E /* code-sign-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "code-sign-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E76E111F4AC90A0028096E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13E76E121F4AC90A0028096E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +180,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134DB85E1F98C48900ABB09A /* HealthKit.framework in Frameworks */,
+				134DB8511F98C0EA00ABB09A /* MapKit.framework in Frameworks */,
+				134DB84F1F98C09900ABB09A /* AudioToolbox.framework in Frameworks */,
+				134DB84D1F98C03D00ABB09A /* StoreKit.framework in Frameworks */,
+				134DB8571F98C33F00ABB09A /* NetworkExtension.framework in Frameworks */,
+				134DB85B1F98C38E00ABB09A /* PassKit.framework in Frameworks */,
+				134DB8491F98BFE100ABB09A /* HomeKit.framework in Frameworks */,
+				134DB8591F98C36100ABB09A /* ExternalAccessory.framework in Frameworks */,
+				134DB8471F98BFC100ABB09A /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134DB8371F98B88800ABB09A /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,12 +218,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134DB83F1F98B8B200ABB09A /* PassKit.framework in Frameworks */,
+				134DB8431F98B8CD00ABB09A /* HomeKit.framework in Frameworks */,
+				134DB8601F98C52600ABB09A /* HealthKit.framework in Frameworks */,
+				134DB8621F98C55B00ABB09A /* CloudKit.framework in Frameworks */,
+				134DB8411F98B8B900ABB09A /* MapKit.framework in Frameworks */,
+				134DB83D1F98B8AE00ABB09A /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13372C381F97B117006284F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				134DB8611F98C55B00ABB09A /* CloudKit.framework */,
+				134DB85F1F98C52600ABB09A /* HealthKit.framework */,
+				134DB85A1F98C38E00ABB09A /* PassKit.framework */,
+				134DB8581F98C36100ABB09A /* ExternalAccessory.framework */,
+				134DB8561F98C33F00ABB09A /* NetworkExtension.framework */,
+				134DB8501F98C0EA00ABB09A /* MapKit.framework */,
+				134DB84E1F98C09900ABB09A /* AudioToolbox.framework */,
+				134DB84C1F98C03D00ABB09A /* StoreKit.framework */,
+				134DB8481F98BFE100ABB09A /* HomeKit.framework */,
+				134DB8461F98BFC100ABB09A /* GameKit.framework */,
+				134DB8421F98B8CD00ABB09A /* HomeKit.framework */,
+				134DB8401F98B8B900ABB09A /* MapKit.framework */,
+				134DB83E1F98B8B200ABB09A /* PassKit.framework */,
+				134DB83C1F98B8AE00ABB09A /* GameKit.framework */,
+				134DB8361F98B88700ABB09A /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		13E76E051F4AC90A0028096E = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +262,7 @@
 				13E76E5A1F4AC9800028096E /* watchkit-app */,
 				13E76E691F4AC9800028096E /* watchkit-app Extension */,
 				13E76E0F1F4AC90A0028096E /* Products */,
+				13372C381F97B117006284F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +282,7 @@
 		13E76E101F4AC90A0028096E /* code-sign-test */ = {
 			isa = PBXGroup;
 			children = (
+				13372C371F97B117006284F9 /* code-sign-test.entitlements */,
 				13E76E111F4AC90A0028096E /* AppDelegate.h */,
 				13E76E121F4AC90A0028096E /* AppDelegate.m */,
 				13E76E141F4AC90A0028096E /* ViewController.h */,
@@ -242,6 +317,7 @@
 		13E76E481F4AC94F0028096E /* share-extension */ = {
 			isa = PBXGroup;
 			children = (
+				134DB82F1F98B7E400ABB09A /* share-extension.entitlements */,
 				13E76E491F4AC94F0028096E /* ShareViewController.h */,
 				13E76E4A1F4AC94F0028096E /* ShareViewController.m */,
 				13E76E4C1F4AC94F0028096E /* MainInterface.storyboard */,
@@ -253,6 +329,7 @@
 		13E76E5A1F4AC9800028096E /* watchkit-app */ = {
 			isa = PBXGroup;
 			children = (
+				134DB82A1F98AAED00ABB09A /* watchkit-app.entitlements */,
 				13E76E5B1F4AC9800028096E /* Interface.storyboard */,
 				13E76E5E1F4AC9800028096E /* Assets.xcassets */,
 				13E76E601F4AC9800028096E /* Info.plist */,
@@ -263,6 +340,7 @@
 		13E76E691F4AC9800028096E /* watchkit-app Extension */ = {
 			isa = PBXGroup;
 			children = (
+				134DB8391F98B8A000ABB09A /* watchkit-app Extension.entitlements */,
 				13E76E6A1F4AC9800028096E /* InterfaceController.h */,
 				13E76E6B1F4AC9800028096E /* InterfaceController.m */,
 				13E76E6D1F4AC9800028096E /* ExtensionDelegate.h */,
@@ -398,29 +476,196 @@
 				TargetAttributes = {
 					13E76E0D1F4AC90A0028096E = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Multipath = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					13E76E251F4AC90A0028096E = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 13E76E0D1F4AC90A0028096E;
 					};
 					13E76E301F4AC90A0028096E = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 13E76E0D1F4AC90A0028096E;
 					};
 					13E76E461F4AC94F0028096E = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					13E76E581F4AC9800028096E = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					13E76E641F4AC9800028096E = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes.watchos.extension = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -718,14 +963,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_ENTITLEMENTS = "code-sign-test/code-sign-test.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -734,14 +981,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_ENTITLEMENTS = "code-sign-test/code-sign-test.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -750,8 +999,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-testTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-testTests";
@@ -766,8 +1016,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-testTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-testTests";
@@ -781,14 +1032,15 @@
 		13E76E411F4AC90A0028096E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-testUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "code-sign-test";
 			};
@@ -797,14 +1049,15 @@
 		13E76E421F4AC90A0028096E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-testUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "code-sign-test";
 			};
@@ -813,14 +1066,16 @@
 		13E76E541F4AC94F0028096E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_ENTITLEMENTS = "share-extension/share-extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "share-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.share-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -829,14 +1084,16 @@
 		13E76E551F4AC94F0028096E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_ENTITLEMENTS = "share-extension/share-extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "share-extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.share-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -846,15 +1103,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "watchkit-app Extension/watchkit-app Extension.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "watchkit-app Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -866,15 +1124,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "watchkit-app Extension/watchkit-app Extension.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "watchkit-app Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -886,14 +1145,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_ENTITLEMENTS = "watchkit-app/watchkit-app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				IBSC_MODULE = watchkit_app_Extension;
 				INFOPLIST_FILE = "watchkit-app/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -905,14 +1166,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				CODE_SIGN_ENTITLEMENTS = "watchkit-app/watchkit-app.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 339CX9E66J;
 				IBSC_MODULE = watchkit_app_Extension;
 				INFOPLIST_FILE = "watchkit-app/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "548cd560-c511-4540-8b6b-cbec4a22f49d";
-				PROVISIONING_PROFILE_SPECIFIER = "BitriseBot-Wildcard";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
