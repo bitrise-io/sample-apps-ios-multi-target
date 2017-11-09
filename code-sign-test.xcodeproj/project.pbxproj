@@ -965,7 +965,7 @@
 				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.t";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -983,7 +983,7 @@
 				DEVELOPMENT_TEAM = 339CX9E66J;
 				INFOPLIST_FILE = "code-sign-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test.t";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
