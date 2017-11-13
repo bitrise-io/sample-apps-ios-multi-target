@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.bitrise.code-sign-test</string>
+	<string>com.bitrise.entitlements</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
