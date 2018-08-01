@@ -26,6 +26,14 @@
 		13E76E721F4AC9800028096E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E711F4AC9800028096E /* NotificationController.m */; };
 		13E76E741F4AC9800028096E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E731F4AC9800028096E /* Assets.xcassets */; };
 		13E76E791F4AC9800028096E /* watchkit-app.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 13E76E591F4AC9800028096E /* watchkit-app.app */; };
+		7D3ADA312110A1EA00DFCDCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E151F4AC90A0028096E /* ViewController.m */; };
+		7D3ADA322110A1EA00DFCDCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E201F4AC90A0028096E /* main.m */; };
+		7D3ADA332110A1EA00DFCDCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E121F4AC90A0028096E /* AppDelegate.m */; };
+		7D3ADA372110A1EA00DFCDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E1C1F4AC90A0028096E /* LaunchScreen.storyboard */; };
+		7D3ADA382110A1EA00DFCDCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E1A1F4AC90A0028096E /* Assets.xcassets */; };
+		7D3ADA392110A1EA00DFCDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E171F4AC90A0028096E /* Main.storyboard */; };
+		7D3ADA442110A2E500DFCDCF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3ADA432110A2E500DFCDCF /* CloudKit.framework */; };
+		7D3ADA462110A3A500DFCDCF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3ADA432110A2E500DFCDCF /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +108,26 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D3ADA3A2110A1EA00DFCDCF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3ADA3C2110A1EA00DFCDCF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +166,11 @@
 		13E76E731F4AC9800028096E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13E76E751F4AC9800028096E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E76E761F4AC9800028096E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7D3ADA272110A07B00DFCDCF /* code-sign-test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "code-sign-test.entitlements"; sourceTree = "<group>"; };
+		7D3ADA412110A1EA00DFCDCF /* code-sign-test-Prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "code-sign-test-Prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3ADA422110A1EB00DFCDCF /* Info-Prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-Prod.plist"; path = "/Users/godreikrisztian/Develop/ios/sample-apps-ios-multi-target/Info-Prod.plist"; sourceTree = "<absolute>"; };
+		7D3ADA432110A2E500DFCDCF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		7D3ADA452110A36B00DFCDCF /* code-sign-test-Prod.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "code-sign-test-Prod.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D3ADA462110A3A500DFCDCF /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +210,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D3ADA342110A1EA00DFCDCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3ADA442110A2E500DFCDCF /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -189,6 +231,7 @@
 				13E76E5A1F4AC9800028096E /* watchkit-app */,
 				13E76E691F4AC9800028096E /* watchkit-app Extension */,
 				13E76E0F1F4AC90A0028096E /* Products */,
+				7D3ADA282110A1AD00DFCDCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +244,7 @@
 				13E76E471F4AC94F0028096E /* share-extension.appex */,
 				13E76E591F4AC9800028096E /* watchkit-app.app */,
 				13E76E651F4AC9800028096E /* watchkit-app Extension.appex */,
+				7D3ADA412110A1EA00DFCDCF /* code-sign-test-Prod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,6 +252,8 @@
 		13E76E101F4AC90A0028096E /* code-sign-test */ = {
 			isa = PBXGroup;
 			children = (
+				7D3ADA452110A36B00DFCDCF /* code-sign-test-Prod.entitlements */,
+				7D3ADA272110A07B00DFCDCF /* code-sign-test.entitlements */,
 				13E76E111F4AC90A0028096E /* AppDelegate.h */,
 				13E76E121F4AC90A0028096E /* AppDelegate.m */,
 				13E76E141F4AC90A0028096E /* ViewController.h */,
@@ -216,6 +262,7 @@
 				13E76E1A1F4AC90A0028096E /* Assets.xcassets */,
 				13E76E1C1F4AC90A0028096E /* LaunchScreen.storyboard */,
 				13E76E1F1F4AC90A0028096E /* Info.plist */,
+				7D3ADA422110A1EB00DFCDCF /* Info-Prod.plist */,
 				13E76E201F4AC90A0028096E /* main.m */,
 			);
 			path = "code-sign-test";
@@ -274,6 +321,14 @@
 				13E76E761F4AC9800028096E /* PushNotificationPayload.apns */,
 			);
 			path = "watchkit-app Extension";
+			sourceTree = "<group>";
+		};
+		7D3ADA282110A1AD00DFCDCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D3ADA432110A2E500DFCDCF /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +442,25 @@
 			productReference = 13E76E651F4AC9800028096E /* watchkit-app Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		7D3ADA2B2110A1EA00DFCDCF /* code-sign-test-Prod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3ADA3E2110A1EA00DFCDCF /* Build configuration list for PBXNativeTarget "code-sign-test-Prod" */;
+			buildPhases = (
+				7D3ADA302110A1EA00DFCDCF /* Sources */,
+				7D3ADA342110A1EA00DFCDCF /* Frameworks */,
+				7D3ADA362110A1EA00DFCDCF /* Resources */,
+				7D3ADA3A2110A1EA00DFCDCF /* Embed App Extensions */,
+				7D3ADA3C2110A1EA00DFCDCF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "code-sign-test-Prod";
+			productName = "code-sign-test";
+			productReference = 7D3ADA412110A1EA00DFCDCF /* code-sign-test-Prod.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -399,6 +473,14 @@
 					13E76E0D1F4AC90A0028096E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					13E76E251F4AC90A0028096E = {
 						CreatedOnToolsVersion = 9.0;
@@ -422,6 +504,14 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					7D3ADA2B2110A1EA00DFCDCF = {
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 				};
 			};
 			buildConfigurationList = 13E76E091F4AC90A0028096E /* Build configuration list for PBXProject "code-sign-test" */;
@@ -443,6 +533,7 @@
 				13E76E461F4AC94F0028096E /* share-extension */,
 				13E76E581F4AC9800028096E /* watchkit-app */,
 				13E76E641F4AC9800028096E /* watchkit-app Extension */,
+				7D3ADA2B2110A1EA00DFCDCF /* code-sign-test-Prod */,
 			);
 		};
 /* End PBXProject section */
@@ -497,6 +588,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D3ADA362110A1EA00DFCDCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3ADA372110A1EA00DFCDCF /* LaunchScreen.storyboard in Resources */,
+				7D3ADA382110A1EA00DFCDCF /* Assets.xcassets in Resources */,
+				7D3ADA392110A1EA00DFCDCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -541,6 +642,16 @@
 				13E76E6F1F4AC9800028096E /* ExtensionDelegate.m in Sources */,
 				13E76E6C1F4AC9800028096E /* InterfaceController.m in Sources */,
 				13E76E721F4AC9800028096E /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3ADA302110A1EA00DFCDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3ADA312110A1EA00DFCDCF /* ViewController.m in Sources */,
+				7D3ADA322110A1EA00DFCDCF /* main.m in Sources */,
+				7D3ADA332110A1EA00DFCDCF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +829,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "code-sign-test/code-sign-test.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
@@ -735,6 +847,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "code-sign-test/code-sign-test.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
@@ -930,6 +1043,42 @@
 			};
 			name = Release;
 		};
+		7D3ADA3F2110A1EA00DFCDCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "code-sign-test/code-sign-test-Prod.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "$(SRCROOT)/Info-Prod.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test-Prod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D3ADA402110A1EA00DFCDCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "code-sign-test/code-sign-test-Prod.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "$(SRCROOT)/Info-Prod.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.code-sign-test-Prod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -992,6 +1141,15 @@
 			buildConfigurations = (
 				13E76E7F1F4AC9800028096E /* Debug */,
 				13E76E801F4AC9800028096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3ADA3E2110A1EA00DFCDCF /* Build configuration list for PBXNativeTarget "code-sign-test-Prod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3ADA3F2110A1EA00DFCDCF /* Debug */,
+				7D3ADA402110A1EA00DFCDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
