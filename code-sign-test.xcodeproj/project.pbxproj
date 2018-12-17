@@ -1104,8 +1104,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "watchkit-app Extension/watchkit-app Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "watchkit-app Extension/Info.plist";
@@ -1113,7 +1113,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.entitlements.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "091411c6-3ba1-407b-8be2-cac7fbdbebb3";
-				PROVISIONING_PROFILE_SPECIFIER = "Auto Provision Watchkit Extension Development";
+				PROVISIONING_PROFILE_SPECIFIER = com.bitrise.entitlements.watchkitapp.watchkitexten;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1126,8 +1126,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "watchkit-app Extension/watchkit-app Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "watchkit-app Extension/Info.plist";
@@ -1135,7 +1135,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.entitlements.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "834f3c85-3453-4e9d-a302-03b4eeaf4fdf";
-				PROVISIONING_PROFILE_SPECIFIER = "Auto Provision Watchkit Extension Development";
+				PROVISIONING_PROFILE_SPECIFIER = com.bitrise.entitlements.watchkitapp.watchkitexten;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1148,8 +1148,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "watchkit-app/watchkit-app.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				IBSC_MODULE = watchkit_app_Extension;
@@ -1157,7 +1157,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.entitlements.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a9afac20-9a15-4489-946b-fa5fb36b436a";
-				PROVISIONING_PROFILE_SPECIFIER = "Auto Provision Watchkit Development";
+				PROVISIONING_PROFILE_SPECIFIER = com.bitrise.entitlements.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1170,8 +1170,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "watchkit-app/watchkit-app.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Gödrei Krisztian (USL3D5QT8N)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				IBSC_MODULE = watchkit_app_Extension;
@@ -1179,7 +1179,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitrise.entitlements.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a9afac20-9a15-4489-946b-fa5fb36b436a";
-				PROVISIONING_PROFILE_SPECIFIER = "Auto Provision Watchkit Development";
+				PROVISIONING_PROFILE_SPECIFIER = com.bitrise.entitlements.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
