@@ -25,7 +25,6 @@
 		13E76E6F1F4AC9800028096E /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E6E1F4AC9800028096E /* ExtensionDelegate.m */; };
 		13E76E721F4AC9800028096E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E711F4AC9800028096E /* NotificationController.m */; };
 		13E76E741F4AC9800028096E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E731F4AC9800028096E /* Assets.xcassets */; };
-		13E76E791F4AC9800028096E /* watchkit-app.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 13E76E591F4AC9800028096E /* watchkit-app.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,17 +86,6 @@
 				13E76E661F4AC9800028096E /* watchkit-app Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13E76E811F4AC9800028096E /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				13E76E791F4AC9800028096E /* watchkit-app.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -287,7 +275,6 @@
 				13E76E0B1F4AC90A0028096E /* Frameworks */,
 				13E76E0C1F4AC90A0028096E /* Resources */,
 				13E76E561F4AC94F0028096E /* Embed App Extensions */,
-				13E76E811F4AC9800028096E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
