@@ -56,13 +56,6 @@
 			remoteGlobalIDString = 13E76E641F4AC9800028096E;
 			remoteInfo = "watchkit-app Extension";
 		};
-		13E76E771F4AC9800028096E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 13E76E061F4AC90A0028096E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13E76E581F4AC9800028096E;
-			remoteInfo = "watchkit-app";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -280,7 +273,6 @@
 			);
 			dependencies = (
 				13E76E511F4AC94F0028096E /* PBXTargetDependency */,
-				13E76E781F4AC9800028096E /* PBXTargetDependency */,
 			);
 			name = "code-sign-test";
 			productName = "code-sign-test";
@@ -553,11 +545,6 @@
 			isa = PBXTargetDependency;
 			target = 13E76E641F4AC9800028096E /* watchkit-app Extension */;
 			targetProxy = 13E76E671F4AC9800028096E /* PBXContainerItemProxy */;
-		};
-		13E76E781F4AC9800028096E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13E76E581F4AC9800028096E /* watchkit-app */;
-			targetProxy = 13E76E771F4AC9800028096E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
