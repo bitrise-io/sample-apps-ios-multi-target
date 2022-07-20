@@ -25,7 +25,6 @@
 		13E76E6F1F4AC9800028096E /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E6E1F4AC9800028096E /* ExtensionDelegate.m */; };
 		13E76E721F4AC9800028096E /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E76E711F4AC9800028096E /* NotificationController.m */; };
 		13E76E741F4AC9800028096E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E76E731F4AC9800028096E /* Assets.xcassets */; };
-		13E76E791F4AC9800028096E /* watchkit-app.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 13E76E591F4AC9800028096E /* watchkit-app.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +55,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 13E76E641F4AC9800028096E;
 			remoteInfo = "watchkit-app Extension";
-		};
-		13E76E771F4AC9800028096E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 13E76E061F4AC90A0028096E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13E76E581F4AC9800028096E;
-			remoteInfo = "watchkit-app";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -95,7 +87,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				13E76E791F4AC9800028096E /* watchkit-app.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +284,6 @@
 			);
 			dependencies = (
 				13E76E511F4AC94F0028096E /* PBXTargetDependency */,
-				13E76E781F4AC9800028096E /* PBXTargetDependency */,
 			);
 			name = "code-sign-test";
 			productName = "code-sign-test";
@@ -566,11 +556,6 @@
 			isa = PBXTargetDependency;
 			target = 13E76E641F4AC9800028096E /* watchkit-app Extension */;
 			targetProxy = 13E76E671F4AC9800028096E /* PBXContainerItemProxy */;
-		};
-		13E76E781F4AC9800028096E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13E76E581F4AC9800028096E /* watchkit-app */;
-			targetProxy = 13E76E771F4AC9800028096E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
