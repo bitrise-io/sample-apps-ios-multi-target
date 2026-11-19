@@ -44,7 +44,7 @@
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>com.bitrise.entitlements.watchkitapp</string>
+			<string>$(SAMPLE_BUNDLE_ID_BASE).watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>

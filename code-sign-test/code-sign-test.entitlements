@@ -46,7 +46,7 @@
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.bitrise.code-sign-test</string>
+		<string>$(AppIdentifierPrefix)io.bitrise.samples.multi-target-entitlements</string>
 	</array>
 </dict>
 </plist>

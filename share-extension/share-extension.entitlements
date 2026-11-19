@@ -37,7 +37,7 @@
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.bitrise.code-sign-test.share-extension</string>
+		<string>$(AppIdentifierPrefix)io.bitrise.samples.multi-target-entitlements.share-extension</string>
 	</array>
 </dict>
 </plist>
